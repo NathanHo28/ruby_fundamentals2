@@ -25,6 +25,10 @@ students[:cohort4] = 43
 
 cohorts(students)
 
+#Exercise 7: Question 3
+
+puts students.keys
+
 
 
 
