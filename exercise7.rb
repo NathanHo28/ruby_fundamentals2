@@ -42,7 +42,14 @@ end
 
 cohorts(students)
 
+#Exercise 7: Question 5
 
+puts "Cohort2 no longer matters. Let's delete it."
+
+students.delete(:cohort2)
+
+puts "Deleted! see the new list below:key => "value", "
+puts students
 
 
 
