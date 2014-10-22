@@ -8,8 +8,6 @@ students = {
 
 puts "How many students have there been per cohort?"
 
-# hash = students
-
 def cohorts(n)
 	n.each do |co, stu|
 	puts "#{co}: #{stu} students"
@@ -20,12 +18,13 @@ cohorts(students)
 
 #Exercise 7: Question 2
 
-# puts "Add the fourth cohort to the list."
-# puts "Added! (See below)" 
+puts "Add the fourth cohort to the list."
+puts "Added! (See below)" 
 
-# students[:cohort4] = 43
+students[:cohort4] = 43
 
-# students.each do |co, stu|
-# 	puts "#{co}: #{stu} students"
-# end
+cohorts(students)
+
+
+
 
