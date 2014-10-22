@@ -51,6 +51,17 @@ students.delete(:cohort2)
 puts "Deleted! see the new list below:key => "value", "
 puts students
 
+#Exercise 7: Question 6
+
+puts "Let's add all cohorts together just for fun!"
+
+students[:cohorts2] = 42
+
+all = 0
+students.each{|co, stu| all += stu}
+
+puts "Total number of students is #{all}"
+
 
 
 
